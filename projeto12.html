@@ -31,13 +31,13 @@
         document.write("<tr>");
         document.write("<td>#</td>");
         if (imparpar == 0){
-            document.write("Números Pares.")     
+            document.write("<td>" + "Números Pares." + "</td>")     
         }
         else if (imparpar == 1) {
-            document.write("Números Impares.")
+            document.write("<td>" + "Números Impares." + "</td>")
         }
         else {
-            document.write("Número Inválido. Escolha 0(Zero) ou 1(Um).")
+            console.log("Número Inválido. Escolha 0(Zero) ou 1(Um).")
             close();
         }
         document.write("</tr>");
