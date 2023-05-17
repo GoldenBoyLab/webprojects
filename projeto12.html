@@ -31,13 +31,13 @@
         document.write("<tr>");
         document.write("<td>#</td>");
         if (imparpar == 0){
-            console.log("Números Pares.")     
+            document.write("Números Pares.")     
         }
         else if (imparpar == 1) {
-            console.log("Números Impares.")
+            document.write("Números Impares.")
         }
         else {
-            console.log("Número Inválido. Escolha 0(Zero) ou 1(Um).")
+            document.write("Número Inválido. Escolha 0(Zero) ou 1(Um).")
             close();
         }
         document.write("</tr>");
@@ -49,12 +49,12 @@
             if ((imparpar == 0) && (num % 2 == 0)){
                 document.write("<td>" + sequencial + "</td>");
                 sequencial++;
-                document.write("<td>" + numero + "</td>");
+                document.write("<td>" + num + "</td>");
             }
             if ((imparpar == 1) && (num % 2 == 1)){
                 document.write("<td>" + sequencial + "</td>");
                 sequencial++;
-                document.write("<td>" + numero + "</td>");
+                document.write("<td>" + num + "</td>");
             }
             document.write("</tr>");
             num++;
